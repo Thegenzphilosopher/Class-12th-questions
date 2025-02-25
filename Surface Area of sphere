@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int r;
+    cout <<"Enter the desired radius of Sphere :"<< endl;
+    cin >> r ;
+    int areaOfsphere = 4 * 3.14 * r * r;
+    cout <<"The Surface area of Sphere is:"<< areaOfsphere << endl;
+    return 0 ;
+}

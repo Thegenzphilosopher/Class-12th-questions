@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int areaofsphere(int radius)
+{
+    
+    int areaofsphere = 4 * 3.14 * radius * radius ;
+    return areaofsphere ;
+}
+
+int main()
+{
+    int r;
+    cout << "Enter radius of sphere:";
+    cin >> r;
+    int area = areaofsphere(r);
+    cout << "Area of Sphere"<< area ;
+    
+    return 0;
+}
